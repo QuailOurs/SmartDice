@@ -1,0 +1,63 @@
+﻿<Window x:Class="TRPGTools.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        ResizeMode = "NoResize"
+        x:Name="Window" FontFamily="宋体" Title="TRPG Tools" Loaded="Window_Loaded" Height="450" Width="525" Icon="Images/64X64.ico">
+    <Window.Resources>
+
+    </Window.Resources>
+
+    <Grid x:Name="LayoutRoot" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <!--总体布局-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="65" />
+            <RowDefinition Height="25" />
+            <RowDefinition Height="444*" />
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="156*"/>
+            <ColumnDefinition Width="359*"/>
+            <ColumnDefinition Width="263*"/>
+        </Grid.ColumnDefinitions>
+        <!-- 1行1列 -->
+        <DockPanel Grid.Row="0" Grid.Column="0" LastChildFill="False" OpacityMask="#FFC7EDCC" Margin="0">
+            <Grid Width="103" Height="Auto" Margin="0,2,0,0" VerticalAlignment="Center">
+                <Grid VerticalAlignment="Center" Margin="10,4,13,0" HorizontalAlignment="Center" Width="80">
+                    <TextBlock TextWrapping="Wrap" Text="TRPG&#xa;Tools" FontSize="15" FontWeight="Bold" Margin="38,9,0,7"/>
+                    <Image VerticalAlignment="Top" Stretch="Fill" Margin="0,9,0,0"  Height="35" HorizontalAlignment="Left" Width="35" Source="Images/64X64.ico" />
+                </Grid>
+            </Grid>
+        </DockPanel>
+
+        <!-- 1行2列 -->
+        <Menu Name="menu" Grid.Column="1" FontSize="15" Background="WhiteSmoke" Margin="0,21,0,20" VerticalAlignment="Center" Grid.ColumnSpan="2">
+            <MenuItem Name="miStart" Header="功能" >
+                <MenuItem Name="mi_new" Header="TRPG简易骰子" />
+                <Separator />
+                <MenuItem Name="MiExit" Header="退出" Click="Exit_Click"  />
+                <MenuItem Name="miAbout" Header="关于" Click="About_Click"  />
+            </MenuItem>
+            <MenuItem Name="mi_setParameter" Header="设置" >
+                <MenuItem Name="miSetDataBase" Header="设置" />
+            </MenuItem>
+        </Menu>
+
+        <!-- 2行1列 -->
+
+        <!-- 2行2列 -->
+        <StatusBar Grid.Row="1" Grid.Column="1"  Name="sb_cur" Grid.ColumnSpan="2" Height="25" VerticalAlignment="Top">
+            <!--<StatusBarItem Name="sbiFile" Background="Wheat" />-->
+            <TextBlock Text="当前功能: " VerticalAlignment="Center" />
+            <TextBlock Text="" Name="tb_curTools" />
+        </StatusBar>
+
+        <!-- 3行 -->
+        <StatusBar Grid.Row="3" Name="sbMain" Grid.ColumnSpan="3" Height="27" VerticalAlignment="Bottom">
+            <!--<StatusBarItem Name="sbiFile" Background="Wheat" />-->
+            <TextBlock Text="{Binding ElementName=CategoryTree, Path=SelectedItem.CategoryName}" />
+        </StatusBar>
+        <ContentControl Name="addContentControl" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Margin="0,0,0,0"/>
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+F:\WorkSpace\Visual Studio 2013\Projects\智能骰子\智能骰子\bin\Debug\智能骰子.exe.config
+F:\WorkSpace\Visual Studio 2013\Projects\智能骰子\智能骰子\obj\Debug\智能骰子.csprojResolveAssemblyReference.cache
+F:\WorkSpace\Visual Studio 2013\Projects\智能骰子\智能骰子\obj\Debug\MainWindow.baml
+F:\WorkSpace\Visual Studio 2013\Projects\智能骰子\智能骰子\obj\Debug\UC_SmartDice.baml
+F:\WorkSpace\Visual Studio 2013\Projects\智能骰子\智能骰子\obj\Debug\MainWindow.g.cs
+F:\WorkSpace\Visual Studio 2013\Projects\智能骰子\智能骰子\obj\Debug\UC_SmartDice.g.cs
+F:\WorkSpace\Visual Studio 2013\Projects\智能骰子\智能骰子\obj\Debug\App.g.cs
+F:\WorkSpace\Visual Studio 2013\Projects\智能骰子\智能骰子\obj\Debug\智能骰子_MarkupCompile.cache
+F:\WorkSpace\Visual Studio 2013\Projects\智能骰子\智能骰子\obj\Debug\智能骰子.g.resources
+F:\WorkSpace\Visual Studio 2013\Projects\智能骰子\智能骰子\obj\Debug\智能骰子.Properties.Resources.resources
+F:\WorkSpace\Visual Studio 2013\Projects\智能骰子\智能骰子\obj\Debug\智能骰子.csproj.GenerateResource.Cache
+F:\WorkSpace\Visual Studio 2013\Projects\智能骰子\智能骰子\obj\Debug\WndAbout.baml
+F:\WorkSpace\Visual Studio 2013\Projects\智能骰子\智能骰子\obj\Debug\WndAbout.g.cs
+F:\WorkSpace\Visual Studio 2013\Projects\智能骰子\智能骰子\bin\Debug\智能骰子.exe
+F:\WorkSpace\Visual Studio 2013\Projects\智能骰子\智能骰子\bin\Debug\智能骰子.pdb
+F:\WorkSpace\Visual Studio 2013\Projects\智能骰子\智能骰子\obj\Debug\智能骰子.exe
+F:\WorkSpace\Visual Studio 2013\Projects\智能骰子\智能骰子\obj\Debug\智能骰子.pdb
